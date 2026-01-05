@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply font-sans text-charcoal-900 bg-white antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold tracking-tight;
+    line-height: 1.2;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+
+  p {
+    @apply leading-relaxed;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 font-semibold text-sm uppercase tracking-wider transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply btn bg-steel-700 text-white hover:bg-steel-800 focus:ring-2 focus:ring-steel-500 focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply btn bg-charcoal-900 text-white hover:bg-charcoal-800 focus:ring-2 focus:ring-charcoal-500 focus:ring-offset-2;
+  }
+
+  .btn-outline {
+    @apply btn border-2 border-charcoal-900 text-charcoal-900 hover:bg-charcoal-900 hover:text-white focus:ring-2 focus:ring-charcoal-500 focus:ring-offset-2;
+  }
+
+  .btn-outline-white {
+    @apply btn border-2 border-white text-white hover:bg-white hover:text-charcoal-900 focus:ring-2 focus:ring-white focus:ring-offset-2;
+  }
+
+  .container-wide {
+    @apply max-w-8xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 border border-charcoal-300 bg-white text-charcoal-900 placeholder-charcoal-400 focus:border-steel-500 focus:ring-2 focus:ring-steel-500 focus:ring-opacity-20 focus:outline-none transition-colors duration-200;
+  }
+
+  .label {
+    @apply block text-sm font-semibold text-charcoal-700 mb-2 uppercase tracking-wider;
+  }
+
+  .prose-industrial {
+    @apply text-charcoal-700 leading-relaxed;
+  }
+
+  .prose-industrial h2 {
+    @apply text-2xl font-bold text-charcoal-900 mt-8 mb-4;
+  }
+
+  .prose-industrial h3 {
+    @apply text-xl font-bold text-charcoal-900 mt-6 mb-3;
+  }
+
+  .prose-industrial p {
+    @apply mb-4;
+  }
+
+  .prose-industrial ul {
+    @apply list-disc list-inside mb-4 space-y-2;
+  }
+
+  .prose-industrial ol {
+    @apply list-decimal list-inside mb-4 space-y-2;
+  }
+
+  .prose-industrial table {
+    @apply w-full border-collapse mb-6;
+  }
+
+  .prose-industrial th {
+    @apply bg-charcoal-100 text-left px-4 py-3 font-semibold text-charcoal-900 border border-charcoal-200;
+  }
+
+  .prose-industrial td {
+    @apply px-4 py-3 border border-charcoal-200;
+  }
+
+  .prose-industrial a {
+    @apply text-steel-600 hover:text-steel-800 underline;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
