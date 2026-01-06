@@ -107,7 +107,7 @@ export default function AboutPage() {
                 className="w-full"
               />
               <div className="absolute -bottom-6 -left-6 bg-steel-700 text-white p-6 max-w-xs">
-                <div className="text-4xl font-bold mb-1">25+</div>
+                <div className="text-4xl font-bold mb-1">7+</div>
                 <div className="text-sm text-steel-200 uppercase tracking-wider">
                   Years of Industrial Excellence
                 </div>
