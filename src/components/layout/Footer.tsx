@@ -130,7 +130,7 @@ export default function Footer() {
             <h3 className="font-semibold text-sm uppercase tracking-wider mb-6">Location</h3>
             <div className="aspect-square bg-charcoal-800 overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.8!2d-96.8!3d32.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDU0JzAwLjAiTiA5NsKwNDgnMDAuMCJX!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus"
+                src="https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRg8MgYIARBFGDsyCggCEAAYsQMYgAQyDAgDECMYJxiABBiKBTIGCAQQRRg5MgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMzUxNWowajSoAgCwAgE&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KY-S-9l5X1I6MUPzURAseI7v&daddr=No.1,+vivekanandha+street,+Indira+Nagar,+Anakaputhur,+Chennai,+Tamil+Nadu+600070"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
