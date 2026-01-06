@@ -256,9 +256,9 @@ export default function ContactPage() {
                   <div>
                     <h4 className="font-semibold text-charcoal-900 mb-1">Address</h4>
                     <p className="text-sm text-charcoal-600">
-                      1234 Industrial Boulevard<br />
-                      Manufacturing District, TX 75001<br />
-                      United States
+                     No.1, vivekanandha street<br />
+                      Indira Nagar, Anakaputhur<br />
+                      Chennai, Tamil Nadu 600070
                     </p>
                   </div>
                 </div>
@@ -273,7 +273,8 @@ export default function ContactPage() {
                       href="tel:+15551234567"
                       className="text-sm text-charcoal-600 hover:text-steel-700"
                     >
-                      +1 (555) 123-4567
+                      +91 9025986577</br>
+                    +91 6380878289
                     </a>
                   </div>
                 </div>
@@ -288,7 +289,7 @@ export default function ContactPage() {
                       href="mailto:info@generalequipments.com"
                       className="text-sm text-charcoal-600 hover:text-steel-700"
                     >
-                      info@generalequipments.com
+                      generalequipmentsinfo@gmail.com
                     </a>
                   </div>
                 </div>
@@ -300,7 +301,7 @@ export default function ContactPage() {
                   <div>
                     <h4 className="font-semibold text-charcoal-900 mb-1">Business Hours</h4>
                     <p className="text-sm text-charcoal-600">
-                      Monday - Friday<br />
+                      Monday - Sunday<br />
                       8:00 AM - 6:00 PM CST
                     </p>
                   </div>
