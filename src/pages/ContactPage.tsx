@@ -273,8 +273,8 @@ export default function ContactPage() {
                       href="tel:+15551234567"
                       className="text-sm text-charcoal-600 hover:text-steel-700"
                     >
-                      +91 9025986577</br>
-                    +91 6380878289
+                      +91 9025986577<br />
+                      +91 6380878289
                     </a>
                   </div>
                 </div>
