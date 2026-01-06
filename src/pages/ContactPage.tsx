@@ -313,7 +313,7 @@ export default function ContactPage() {
                 </h3>
                 <div className="aspect-square bg-charcoal-200">
                   <iframe
-                    src="https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRg8MgYIARBFGDsyCggCEAAYsQMYgAQyDAgDECMYJxiABBiKBTIGCAQQRRg5MgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMzUxNWowajSoAgCwAgE&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KY-S-9l5X1I6MUPzURAseI7v&daddr=No.1,+vivekanandha+street,+Indira+Nagar,+Anakaputhur,+Chennai,+Tamil+Nadu+600070"
+                    src="https://share.google/MqnFS0zbAOEzyeMCX"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
