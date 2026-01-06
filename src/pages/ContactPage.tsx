@@ -17,7 +17,6 @@ const inquiryTypes = [
   'Technical Support',
   'Product Information',
   'Partnership',
-  'Careers',
   'Other',
 ];
 
@@ -78,7 +77,7 @@ export default function ContactPage() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
           <p className="text-xl text-charcoal-400 max-w-2xl">
             Get in touch with our team for quotes, technical support, or general
-            inquiries.
+            inquiries within 12 hrs.
           </p>
         </div>
       </section>
@@ -128,7 +127,7 @@ export default function ContactPage() {
                           id="name"
                           type="text"
                           className={`input-field ${errors.name ? 'border-red-500' : ''}`}
-                          placeholder="John Smith"
+                          placeholder="Enter your name"
                           {...register('name', { required: 'Name is required' })}
                         />
                         {errors.name && (
@@ -144,7 +143,7 @@ export default function ContactPage() {
                           id="email"
                           type="email"
                           className={`input-field ${errors.email ? 'border-red-500' : ''}`}
-                          placeholder="john@company.com"
+                          placeholder="generalequipments@company.com"
                           {...register('email', {
                             required: 'Email is required',
                             pattern: {
@@ -166,7 +165,7 @@ export default function ContactPage() {
                           id="phone"
                           type="tel"
                           className="input-field"
-                          placeholder="+1 (555) 123-4567"
+                          placeholder="+91 98765 43210"
                           {...register('phone')}
                         />
                       </div>
@@ -179,7 +178,7 @@ export default function ContactPage() {
                           id="company"
                           type="text"
                           className="input-field"
-                          placeholder="ABC Industries"
+                          placeholder="Industries"
                           {...register('company')}
                         />
                       </div>
